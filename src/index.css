@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.search{
+
+  margin: auto;
+ width: 80%;
+
+}
+.btn{
+  margin: 0 10px !important;
+  padding: 0 20px !important;
+}
+
+.box{
+  /* background-image: url("../src/assets/rainy.avif"); */
+   margin-top: 2rem;
+   height: 80%;
+    border: 1px solid beige;
+}
+
+.text{
+  font-size:  2rem;
+   line-height:normal;
+   font-weight: 700;
+   color: #74bcf6;
+   /* text-decoration: underline; */
+   text-shadow:2px 3px 6px rgb(13 34 55);
+   ;
+   font-family: 'Segoe UI', Tahoma, Geneva , Verdana, sans-serif;
+}
+.my-1{
+  font-size: 1rem;
+  color: rgb(2, 34, 16);
+  font-weight: 600;
+  margin-bottom: 5px;
+
+}
+.my-1 span{
+  color: rgb(24, 74, 132);
+}
